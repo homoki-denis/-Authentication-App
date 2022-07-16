@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       {!isAuthenticated && (
-        <div>
+        <div className="main-header">
           <h1>User Login Authentication</h1>
           <p>Please Login To View Your Data</p>
         </div>
