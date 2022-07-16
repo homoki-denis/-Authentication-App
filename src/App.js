@@ -8,7 +8,7 @@ function App() {
   const { isAuthenticated } = useAuth0();
   return (
     <div className="App">
-      {isAuthenticated && (
+      {!isAuthenticated && (
         <div>
           <h1>User Login Authentication</h1>
           <p>Please Login To View Your Data</p>
