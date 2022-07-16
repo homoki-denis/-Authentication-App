@@ -6,6 +6,8 @@ import UserProfile from "./components/UserProfile";
 function App() {
   return (
     <div className="App">
+      <h1>User Login Authentication</h1>
+      <p>Please Login To View Your Data</p>
       <LoginButton />
       <UserProfile />
       <LogoutButton />
